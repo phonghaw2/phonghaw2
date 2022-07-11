@@ -1,4 +1,4 @@
-<!-- Trungquandev -->
+<!-- phonghaw2 -->
 <a href="#" target="_blank">
   <img src="svg/phonghaw2.svg" width="1200" alt="phonghaw2 photo" />
 </a>
