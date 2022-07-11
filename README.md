@@ -1,22 +1,43 @@
-<h1 align="center">Hi 👋, I'm Phonghaw2</h1>
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/@phonghaw2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="@phonghaw2" height="30" width="40" /></a>
-<a href="https://fb.com/phonghaw2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg" alt="phonghaw2" height="30" width="40" /></a>
-</p>
+<!-- Trungquandev -->
+<a href="#" target="_blank">
+  <img src="svg/phonghaw2.svg" width="1200" alt="phonghaw2 photo" />
+</a>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://laravel.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-plain-wordmark.svg" alt="laravel" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> </p>
+<br>
 
+<h2 align="center">🔥 GitHub Stats 🔥</h2>
+<!-- https://github.com/anuraghazra/github-readme-stats -->
+<br>
+<div align=center>
+  <a href="#" title="Phonghaw2">
+    <img width="315" align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=phonghaw2&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" />
+  </a>
+  <a href="#" title="Phonghaw2">
+    <img align="right" width="434" src="https://github-readme-stats.vercel.app/api?username=phonghaw2&show_icons=true&theme=react&border_color=61dafb&hide_border=true" />
+  </a>
+</div>
 
+<br>
 
-# 📊GitHub Stats :
+<h2 align="center"> Where to find me </h2>
+<br>
+<!-- https://icons8.com -->
+<div align="center">
 
-![](https://github-readme-stats.vercel.app/api?username=phonghaw2&theme=monokai&hide_border=true&include_all_commits=true&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=phonghaw2&theme=monokai&hide_border=true)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=phonghaw2&theme=monokai&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
+  <a href="https://www.facebook.com/phonghaw2" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="trungquandev-facebook" />
+  </a>
+  <a href="https://www.youtube.com/c/TrungquandevOfficial" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/youtube-squared.png" alt="trungquandev-youtube" />
+  </a>
+  <a href="https://www.linkedin.com/in/phonghaw2" target="blank">
+    <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="trungquandev-linkedin" />
+  </a>
+  <a href="mailto:phong2t25t@gmail.com" target="top">
+    <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="trungquandev-email" />
+  </a>
+</div>
 
----
-[![](https://visitcount.itsvg.in/api?id=phonghaw2&icon=0&color=0)](https://visitcount.itsvg.in)
-  
+<br>
+
 
