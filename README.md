@@ -4,6 +4,28 @@
 </a>
 
 <br>
+<br>
+<br>
+
+
+
+### Tools:
+
+<img align='left' height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@4.8.0/icons/xampp.svg" />
+<img align='left' height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@4.8.0/icons/laragon.svg" />
+<img align='left' height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@4.8.0/icons/visualstudiocode.svg" />
+
+<br>
+<br>
+
+
+### Libraries and Frameworks:
+
+<img align='left' height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@4.8.0/icons/laravel.svg" />
+<img align='left' height="32" width="32" src="https://cdn.jsdelivr.net/npm/simple-icons@4.8.0/icons/vue-dot-js.svg" />
+
+<br>
+
 
 <h2 align="center">🔥 GitHub Stats 🔥</h2>
 <!-- https://github.com/anuraghazra/github-readme-stats -->
@@ -23,19 +45,20 @@
 <h2 align="center"> Where to find me </h2>
 <br>
 <!-- https://icons8.com -->
+
 <div align="center">
 
   <a href="https://www.facebook.com/phonghaw2" target="blank">
-    <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="trungquandev-facebook" />
+    <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="phonghaw2-facebook" />
   </a>
   <a href="https://www.youtube.com/c/TrungquandevOfficial" target="blank">
-    <img src="https://img.icons8.com/bubbles/100/000000/youtube-squared.png" alt="trungquandev-youtube" />
+    <img src="https://img.icons8.com/bubbles/100/000000/youtube-squared.png" alt="phonghaw2-youtube" />
   </a>
   <a href="https://www.linkedin.com/in/phonghaw2" target="blank">
-    <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="trungquandev-linkedin" />
+    <img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" alt="phonghaw2-linkedin" />
   </a>
   <a href="mailto:phong2t25t@gmail.com" target="top">
-    <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="trungquandev-email" />
+    <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="phonghaw2-email" />
   </a>
 </div>
 
