@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+    <link href='assets/img/nuts.png' rel='icon' type='image/x-icon'/>
     <meta content='phonghaw2' property='og:title'>
     <meta content='Better Code, Better Life' property='og:description'>
     <title>phonghaw2</title>
