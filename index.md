@@ -7,7 +7,19 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+    <meta content='phonghaw2' property='og:title'>
+    <meta content='Better Code, Better Life' property='og:description'>
     <title>phonghaw2</title>
+     <!-- Description and Keywords (start) -->
+    <meta content='Blog of phonghaw2' name='description'>
+    <meta content='phonghaw2,phong25t25t' name='keywords'>
+    <!-- Description and Keywords (end) -->
+    <meta content='Phonghaw2' property='og:site_name'>
+    <meta content='' name='twitter:domain'>
+    <meta content='' name='twitter:title'>
+    <meta content='summary' name='twitter:card'>
+    <meta content='' name='twitter:title'>
 </head>
 <body>
     <header>
@@ -78,7 +90,6 @@
             </div>     
         </div>
     </header>
-    
     <div class="blog-post-aria">
         <main>
             <article>      
