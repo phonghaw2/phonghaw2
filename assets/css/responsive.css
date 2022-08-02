@@ -91,6 +91,9 @@
         padding-right: 0px;
         grid-column-start: 2;
     }
+    .clock {
+        display: none ;
+    }
 }
 
 @media (min-width: 1280px){
