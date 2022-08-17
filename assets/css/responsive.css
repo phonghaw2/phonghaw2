@@ -68,6 +68,10 @@
     .blog-content-sidebar {
         z-index: 20;
     }
+
+    .blog-content-area {
+        width: 66.666667%;
+    }
 }
 
 @media (min-width: 1024px){
@@ -91,8 +95,14 @@
         padding-right: 0px;
         grid-column-start: 2;
     }
-    .clock {
-        display: none ;
+    .blog-post-card {
+        width: 50%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .blog-post-card-title{
+        font-size: 1.875rem;
+        line-height: 2.25rem;
     }
 }
 
@@ -214,6 +224,13 @@
       border-radius: 0.6666666vmin;
       background-color: #dfe6f6;
       box-shadow: -1vmin -1vmin 2vmin -0.5vmin #f9fbfd, 1vmin 1vmin 2vmin #a9bee8;
+    }
+}
+
+@media (min-width: 1440px){
+    .feed-width {
+        min-width: 850px;
+        max-width: 1000px;
     }
 }
 
