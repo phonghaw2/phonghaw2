@@ -1,31 +1,332 @@
----
-layout: master
-
----
-
-{% for post in site.posts %}
-    <div class="blog-content-area feed-width">
-        <div class="blog-posts-wrapper">
-            <div class="blog-post-card">
-                <section class="blog-post-card-wrapper">
-                    <div class="blog-post-card-content">
-                        <h1 class="blog-post-card-title">
-                            <a href="{{ post.url }}">{{ post.title }}</a>
-                        
-                        </h1>
-                        <p class="blog-post-card-brief">
-                            <!-- {{ post.url }} -->
-                            <a href="{{ post.url }}">{{ post.description }}</a>
-                        </p>
-                    </div>
-                    <div class="blog-post-card-cover">
-                        <a href="{{ post.url }}">
-                            <img src="" alt="">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    
+    <!--Can't find substitution for tag [blog.ieCssRetrofitLinks]-->
+    <link href='assets/img/nuts.png' rel='icon' type='image/x-icon'/>
+    <meta content='https://phonghaw2.github.io/phonghaw2/' property='og:url'/>
+    <meta content='phonghaw2' property='og:title'>
+    <meta content='Better Code, Better Life' property='og:description'>
+    <link rel="canonical" href="phonghaw2.github.io/phonghaw2/" />
+    <title>phonghaw2</title>
+    <!-- Description and Keywords (start) -->
+    <meta content='Blog of phonghaw2' name='description'>
+    <meta content='phonghaw2,phong25t25t' name='keywords'>
+    <!-- Description and Keywords (end) -->
+    <meta content='phonghaw2 blog' property='og:site_name'>
+    <meta content='' name='twitter:domain'>
+    <meta content='' name='twitter:title'>
+    <meta content='summary' name='twitter:card'>
+    <meta content='' name='twitter:title'>
+</head>
+<body>
+    <header>
+        <div class="header header-att">
+            <div class="header-container">
+                <div class="header-bar1">
+                    <div class="header-bar-left">
+                        <a href="/">
+                            <img src="assets/img/2phong.jpg" alt="phonghaw2" width="180px">
+                            <img src="assets/img/nuts.png" alt="peanut" height="32px">
                         </a>
                     </div>
-                </section>
-            </div>
+                    <div class="header-bar-right">
+                        <button class="mode-switch" title="Switch Theme">
+                            <svg class="moon" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" width="24" height="24" viewBox="0 0 24 24">
+                            <defs></defs>
+                            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
+                            </svg>
+                        </button>
+                        <button class="add-btn" title="Add New Project">
+                            <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="12" y1="5" x2="12" y2="19"></line>
+                            <line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                        </button>
+                        <button class="notification-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                        </button>
+                        <button class="profile-btn">
+                            <img src="https://avatars.githubusercontent.com/u/77913075?s=400&u=08c617c56c4e26dcf6ec501833c6d1a431f0e641&v=4">
+                            <span>Phong Ha.</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="header-bar2">
+                    <div class="header-bar-left">
+                        <nav>
+                            <a class="blog-nav active" href="">HOME</a>
+                            <a class="blog-nav " href="">ABOUT</a>
+                        </nav>
+                    </div>
+                    <div class="header-bar-right">
+                        <a class="blog-social" href="https://github.com/phonghaw2" target="_blank">
+                            <svg role="img" class="css-1330i9l" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>GitHub</title>
+                                <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+                            </svg>
+                        </a>
+                        <a class="blog-social" href="https://www.linkedin.com/in/phonghaw2/" target="_blank">
+                            <svg role="img" class="css-1330i9l" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>LinkedIn</title>
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </a>
+                        <a class="blog-social" href="https://www.youtube.com/channel/UCh2gCSQyYOeV8PtDIVo4jqg" target="_blank">
+                            <svg role="img" class="css-1330i9l" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>YouTube</title><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                            </svg>
+                        </a>
+                        <a class="blog-social" href="https:/phong25t25t@gmail.com" target="_blank">
+                            <svg role="img" class="css-1330i9l" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title>Gmail</title>
+                                <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 0 1 0 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L5.455 4.64 12 9.548l6.545-4.91 1.528-1.145C21.69 2.28 24 3.434 24 5.457z"/>
+                            </svg>
+                        </a>
+                    </div> 
+                </div>
+            </div>     
         </div>
+    </header>
+    
+    <div class="blog-post-aria">
+        <main>
+            <article>      
+                <div class="blog-author-container" style="background-color:#b6dbf31a;">
+                    <div class="blog-author-aria">
+                        <div class="blog-author-card">
+                            <div class="blog-author-card-detail">
+                                <div>
+                                    <a href="/">
+                                            <img src="assets/img/avatar.jpg" alt="phonghaw2">                                     
+                                    </a>        
+                                </div>
+                                <div>
+                                    <h1><a href="/">Ha Quoc Phong</a></h1>
+                                </div>
+                                <div>
+                                    <p>
+                                        "Hi, My name is Phong. I'm a PHP Developer and a weightlifter."
+                                    </p> 
+                                </div>                             
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-content">
+                    <div class="blog-content-title">
+                        <h1 class="css-1k5pqev">
+                            Lời khuyên cho các bạn chuyển từ các ngành khác qua IT
+                        </h1>           
+                    </div>
+                    <div class="blog-content-info">
+                        <div class="info">
+                            <span class="css-b8h0za">·</span>
+                            <a href="/" class="toolip-handle">
+                                <span>May 10, 2022</span>
+                            </a>
+                            <span class="css-tez75r">·</span>
+                            <p class="css-2djb73">
+                                <svg class="css-r1dmb" viewBox="0 0 576 512">
+                                    <path d="M540.9 56.77c-45.95-16.66-90.23-24.09-129.1-24.75-60.7.94-102.7 17.45-123.8 27.72-21.1-10.27-64.1-26.8-123.2-27.74-40-.05-84.4 8.35-129.7 24.77C14.18 64.33 0 84.41 0 106.7v302.9c0 14.66 6.875 28.06 18.89 36.8 11.81 8.531 26.64 10.98 40.73 6.781 118.9-36.34 209.3 19.05 214.3 22.19C277.8 477.6 281.2 480 287.1 480c6.52 0 10.12-2.373 14.07-4.578 10.78-6.688 98.3-57.66 214.3-22.27 14.11 4.25 28.86 1.75 40.75-6.812C569.1 437.6 576 424.2 576 409.6V106.7c0-22.28-14.2-42.35-35.1-49.93zM272 438.1c-24.95-12.03-71.01-29.37-130.5-29.37-27.83 0-58.5 3.812-91.19 13.77-4.406 1.344-9 .594-12.69-2.047C34.02 417.8 32 413.1 32 409.6V106.7c0-8.859 5.562-16.83 13.86-19.83C87.66 71.7 127.9 63.95 164.5 64c51.8.81 89.7 15.26 107.5 23.66V438.1zm272-28.5c0 4.375-2.016 8.234-5.594 10.84-3.766 2.703-8.297 3.422-12.69 2.125C424.1 391.6 341.3 420.4 304 438.3V87.66c17.8-8.4 55.7-22.85 107.4-23.66 35.31-.063 76.34 7.484 118.8 22.88 8.2 3 13.8 10.96 13.8 19.82v302.9z"></path>
+                                </svg>
+                                <span>9<!-- --> min read</span>
+                            </p>
+                        </div>
+                        <div class="info" style="margin-left: 20px;">
+                            <img src="assets/img/hana.jpg" alt="hana">
+                            <a class="info-author" href="/">                              
+                                <span>From : Nhat Anh Tran</span>
+                            </a>
+                        </div>
+                    </div>                  
+                </div>
+                <div class="blog-content-wrapper">
+                    <section class="blog-content-main">
+                        <div id="post-content-wrapper">
+                            <p>Một người anh siêu giỏi, code lâu năm nhắn tin hỏi tôi lời khuyên về định hướng cho các bạn chuyển từ các ngành khác qua IT. Phản ứng đầu tiên của tôi là cool quá vì được thần tượng nhắn tin. Sau 4 năm vừa học vừa làm thì tôi cũng có những bài học đắt giá muốn chia sẻ lại cho mọi người. Hi vọng chúng sẽ có ích cho bạn.</p>
+                            <h1 id="heading-cac-rao-can-cua-lam-viec-trai-nganh" style="scroll-margin-top: 110px;">Các rào cản của làm việc trái ngành</h1>
+                            <p>Nhảy ngành là một quyết định lớn trong sự nghiệp của mỗi người. Điều đầu tiên mọi người nên biết khi có ý định nhảy sang ngành IT là xác định các rào cản của việc làm trái ngành.</p>
+                            <h2 id="heading-chenh-lech-thu-nhap-ban-dau" style="scroll-margin-top: 110px;">Chênh lệch thu nhập ban đầu</h2>
+                            <p>Bạn phải mất 1 - 2 năm đi học hoặc vừa học vừa làm không lương hoặc với mức lương không được cao. Thậm chí là thấp hơn nhiều so với công việc trước đó của bạn. Khi bạn có chút kinh nghiệm thì lúc đó lương mới bắt đầu tăng. Nếu bạn là nguồn thu nhập chính trong gia đình, hãy đảm bảo 2 - 3 năm đầu tài chính của bạn dư dả.</p>
+                            <h2 id="heading-canh-tranh-tu-nhung-doi-thu-co-loi-the-hon" style="scroll-margin-top: 110px;">Cạnh tranh từ những đối thủ có lợi thế hơn</h2>
+                            <p>Bạn sẽ phải chấp nhận đồng đội của bạn hay sếp của bạn nhỏ tuổi hơn bạn, trẻ hơn bạn, giỏi hơn bạn và học nhanh hơn bạn. Tôi cũng từng rất áp lực khi đồng đội giỏi hơn mình rất nhiều. Các bạn ấy học lập trình từ hồi cấp 3 lại thêm 5 năm đại học. Mỗi người có một xuất phát điểm khác nhau. Chỉ cần hôm nay bạn đi xa hơn ngày hôm qua thì đó cũng là một thành công lớn.</p>
+                            <h2 id="heading-phan-biet-gioi-tinh" style="scroll-margin-top: 110px;">Phân biệt giới tính</h2>
+                            <p>Trong một ngành phần lớn người lao động là nam. Nếu bạn là nữ và hỏi xin lời khuyên nên làm gì ví trí gì, tôi cá là kiểu gì cũng có nhiều người khuyên bạn nên làm tester, QA, designer hay những vị trí “dành cho nữ hơn” hay “bớt dùng não hơn”. Bất kể bạn có năng khiếu học toán, thích logic và có khi còn giải quyết vấn đề tốt hơn mấy ông nam. Đây là những định kiến ăn sâu vào tiềm thức của nhiều lập trình viên. Tôi hi vọng trong những năm tới, sẽ có nhiều nữ hơn trong ngành IT ở Việt Nam. Đặc biệt là các vị trí Back-end Engineer, Solution Architect, ...</p>
+                            <h2 id="heading-hong-kien-thuc" style="scroll-margin-top: 110px;">Hổng kiến thức</h2>
+                            <p>Sau 1 năm đi làm thì tôi thấy mình không khác gì con vẹt. Viết code theo hướng dẫn sử dụng của thư viện và copy đoạn code trên Google. Dù có hiểu nghĩa và đọc thêm tài liệu cộng với tiếng anh khá nhưng tôi vẫn không thể nào giải thích được tại sao nó chạy. Lúc này, tôi mới hiểu phần lớn các trung tâm dạy lập trình và bootcamp đều bỏ những môn quan trọng như hệ điều hành, mạng máy tính, bảo mật ... Đây là những kiến thức gốc, rất quan trọng. Họ chủ yếu dạy các bạn kiến thức để làm “thợ code". Bạn sẽ có việc rất nhanh sau 4 - 12 tháng, học thấy đỡ nản nhưng càng về sau, khi muốn lên ví trí cao hơn đòi hỏi xử lý hệ thống phức tạp hơn thì những môn “không được dạy" kia sẽ giúp bạn tiến xa và tiến sâu hơn rất nhiều. Xa và sâu ở đây cũng ám chỉ cả lương nữa.</p>
+                            <h1 id="heading-cac-buoc-nen-lam-de-khong-bi-lac-trong-nganh-it" style="scroll-margin-top: 110px;">Các bước nên làm để không bị lạc trong ngành IT</h1>
+                            <h2 id="heading-tim-hieu-tong-quan-nganh-it" style="scroll-margin-top: 110px;">Tìm hiểu tổng quan ngành IT</h2>
+                            <p>IT là một ngành rất rộng, có nhiều hướng để phát triển sự nghiệp và mỗi hướng đi thì đều có một. Vì thế nên khi mới bắt đầu tìm hiểu, bạn sẽ rất dễ bị hoang mang và nản chí. Sau đây là một vài lĩnh vực mà nhu cầu thị trường đang cần trong những năm gần đây (xác định đơn giản bằng số tin tuyển dụng xuất hiện trên các trang tuyển dụng lớn như itviec, linkedin, glassdoor, ...)</p>
+                            <ul>
+                            <li>Phát triển ứng dụng web (Web development)</li>
+                            <li>Trí tuệ nhân tạo (Artificial intelligence) và học máy (Machine learning)</li>
+                            <li>Cyber sercurity</li>
+                            <li>Điện toán đám mây (cloud computing)</li>
+                            <li>Phần cứng (Hardware development)</li>
+                            <li>Vân vân và mây mây</li>
+                            </ul>
+                            <p>Ngoài ra, bạn có thể tìm thấy thông tin trên Google và qua các event của các trường đại học lớn hoặc trên Youtube về tổng quan ngành. Tìm một người đang làm trong ngành và hỏi họ về công việc hàng ngày là một ý tưởng hết sức tuyệt vời. Có những thứ bạn đọc khác hoàn toàn với lúc bạn bạn đi làm. Và đôi khi chỉ có trải nghiệm mới biết bạn hợp hay không.</p>
+                            <h2 id="heading-xay-dung-roadmap" style="scroll-margin-top: 110px;">Xây dựng roadmap</h2>
+                            <p>Tôi xin trích ra ba câu hỏi rất hay trong cuốn <a target="_blank" href="https://shop.spiderum.com/products/nguoi-trong-muon-nghe-nganh-it-co-gi">Người Trong Muôn Nghề: Ngành IT có gì? - Bức tranh tổng quan ngành Công nghệ thông tin</a>.</p>
+                            <ol>
+                            <li>Vì sao bạn học lập trình? Mục đích và mục tiêu của bạn là gì?</li>
+                            <li>Bạn sẵn sàng bỏ ra bao nhiêu lâu để “phá băng” vào ngành này?</li>
+                            <li>Cách bạn tự học thường như thế nào?</li>
+                            </ol>
+                            <p>Không phải ai cũng thích viết lách. Tuy nhiên, viết ra là cách hữu ích giúp bạn biến những ý tưởng mơ hồ thành rõ ràng hơn. Ví dụ, "Tôi thích học lập trình vì thuật toán rất thú vị và tôi có thể áp dụng tạo ra sản phẩm có ích cho xã hội" sẽ rõ ràng hơn "Tôi thích học lập trình".</p>
+                            <p>Việc học lập trình cần có một kế hoạch rõ ràng. Tìm hiểu roadmap của lĩnh vực sẽ giúp bạn biết bạn còn thiếu những kiến thức gì, cần bổ sung kiến thức gì. Để tìm roadmap của một vị trí, bạn search với key là <code>&lt;vị trí&gt; roadmap</code>. Ví dụ, đây là <a target="_blank" href="https://roadmap.sh/golang">roadmap cho Go Developers</a>. Bạn không cần học hết tất cả các mục trong roadmap để có được công việc đầu tiên nên đừng vì nhiều mục quá mà nản nhé. Cứ học từ từ theo thứ tự thôi.</p>
+                            <p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1652133681072/4RapsJBwp.png?auto=compress,format&amp;format=webp" alt="Screen Shot 2022-05-10 at 5.00.31 AM.png" class="image--center mx-auto"></p>
+                            <p>Bản roadmap trên mạng thường rất chung chung, chỉ đưa ra từ khoá lớn. Bạn phải Google và tham khảo thêm từ rất nhiều nguồn khác để tự tạo ra roadmap cá nhân. Khi đã có roadmap cho riêng mình, bạn sẽ biết mình nên học gì tiếp theo, ít bị lạc hơn và tập trung hơn. Bạn có thể tham khảo bài <a target="_blank" href="https://www.facebook.com/groups/1177470863076165/permalink/1191651884991396/">post</a> viết kỹ về quá trình học và có việc làm đầu tiên của chị Ngoc Le trong group <a target="_blank" href="https://www.facebook.com/groups/1177470863076165/">Viet Tech</a> (group chia sẻ kinh nghiệm cho các bạn trong ngành IT, cụ thể là software engineer)</p>
+                            <h2 id="heading-tim-cho-minh-toi-thieu-mot-cong-dong-tot-va-nhung-nguoi-thay-tot" style="scroll-margin-top: 110px;">Tìm cho mình tối thiểu một cộng đồng tốt và những người thầy tốt</h2>
+                            <p>Đối với các bạn trái ngành, tìm cho mình một cộng đồng tốt giúp bạn có nhiều động lực học tập hơn. Bạn sẽ tìm được rất nhiều người bạn tốt có cùng mục tiêu. Việc học nhóm sẽ tạo điều kiện cho bạn phát triển tư duy làm việc nhóm và các kỹ năng giao tiếp.</p>
+                            <p>Phim ảnh thường xây dựng hình ảnh lập trình viên là những người “lập dị, thông minh, cả ngày ngồi máy tính”. Nhưng thực tế là ngành IT đòi hỏi giao tiếp và làm việc nhóm khá nhiều. Giải quyết bất đồng quan điểm, làm rõ những điều chưa hiểu trong yêu cầu của khách hàng, thuyết phục khách hàng/đồng đội về giải pháp đưa ra hay làm sao để vượt qua các câu hỏi tình huống tuyển dụng. Những người có kỹ năng giao tiếp và làm việc nhóm hiệu quả sẽ xử lý vấn đề này tốt hơn người chưa biết cách giao tiếp và làm việc nhóm.</p>
+                            <p>Thầy (mentors) là người không thể thiếu cho dù bạn học bất kỳ cái gì. Thầy có thể là nguời chỉ dẫn cho bạn, có thể là khoá học hoặc sách từ người có kinh nghiệm. Bạn nên chủ động tìm mentors cho bản thân. Khi gặp khó khăn, đừng ngại xin lời khuyên từ họ.</p>
+                            <h2 id="heading-hay-trau-doi-that-tot-4-ky-nang-tieng-anh" style="scroll-margin-top: 110px;">Hãy trau dồi thật tốt 4 kỹ năng tiếng anh</h2>
+                            <p>Tất cả các ngôn ngữ lập trình và tài liệu hướng dẫn sử dụng chúng đều được viết bằng tiếng anh. Phần lớn các lập trình viên trên thế giới đều dùng tiếng anh để trao đổi trong công việc (và cuộc sống). Bạn có thể dùng tiếng anh làm công cụ xây dựng danh tiếng của bản thân và tạo mối quan hệ tốt với các developers giỏi trên thế giới. </p>
+                            <p>Stackoverflow là trang hỏi đáp lớn nhất về lập trình trên thế giới và ngôn ngữ sử dụng là 100% tiếng anh. Với profile vài nghìn điểm Stackoverflow, bạn sẽ có một ấn tượng tốt với nhà tuyển dụng. Tôi cũng nhận được sự trợ giúp về kỹ thuật từ những người giỏi bằng cách viết email hỏi họ.</p>
+                            <p>Bên cạnh đó, lập trình viên giao tiếp tiếng anh tốt có mức lương cao hơn 10-20% so với lập trình viên yếu tiếng anh ở cùng level. Bạn còn có cơ hội nhận các job remote từ nước ngoài với range lương cao hơn so với các job trong nước hoặc ra nước ngoài làm việc.</p>
+                            <p>Một lưu ý nữa là giao tiếp tiếng anh tốt trong công việc khác với học giỏi tiếng anh. Nếu bạn có tiếng anh tốt (IELTS 9.0 chẳng hạn), bạn có lợi thế hơn các bạn học đúng chuyên ngành IT nhưng tiếng anh yếu ở việc xử lý tài liệu tiếng anh nhanh hơn nhưng nó không đồng nghĩa với việc bạn đưa ra hướng giải quyết cho vấn đề nhanh hơn.</p>
+                            <h2 id="heading-dung-mac-bay-thu-nhap" style="scroll-margin-top: 110px;">Đừng mắc bẫy thu nhập</h2>
+                            <p>Trong 2 - 3 năm đầu tiên đi làm, thứ bạn quan tâm đầu tiên là môi trường tốt, đồng đội tốt và bản thân bạn học được nhiều thứ nâng trình độ bản thân lên tầm cao mới. Đừng vì công ty A trả cao hơn công ty B nhưng một năm sau nhìn lại, bạn không thấy mình học được nhiều thứ mới, không có kỹ năng gì đặc biệt bỏ vào resume. Tới lúc chán muốn tìm cơ hội mới thì phỏng vấn lại rơi vào thế lưỡng nan là không công ty nào trả lương cao hơn cho mình.</p>
+                            <h2 id="heading-phat-trien-tiep-nhu-nao" style="scroll-margin-top: 110px;">Phát triển tiếp như nào?</h2>
+                            <p>Câu này bạn sẽ tự hỏi mình khi bạn đã đi làm được vài tháng cho tới vài năm. Như đã viết ở phần hổng kiến thức phía trên. Nếu bạn đã đi theo roadmap cá nhân và vẫn thấy bế tắc. Lời khuyên của tôi là hãy kiên nhẫn và tìm hiểu thêm. Tôi đã phải đọc lại giáo trình hệ điều hành tới lần thứ 2 trong vài tháng liền mới hiểu cơ bản về cách bộ nhớ và CPU hoạt động.</p>
+                            <p>Eli Weinstock-Herman có viết một bài blog rất hay về <a target="_blank" href="http://www.tiernok.com/posts/evergreen/mi/defining-developer-career-ladders/#five-paths-for-senior-developers-not-one-">các nấc thang trong sự nghiệp của một lập trình viên</a>. Bạn có thể tham khảo để tự đánh giá trình độ bản thân và điều chỉnh lại roadmap cá nhân.</p>
+                            <p><img src="https://cdn.hashnode.com/res/hashnode/image/upload/v1652135598872/XPYQzVzlV.png?auto=compress,format&amp;format=webp" alt="ladder-research-02.png" class="image--center mx-auto"></p>
+                        </div>
+                    </section>
+                    <div class="blog-content-sidebar">
+                        <div style="min-height: 700px; ">
+                            <div class="test">
+                                <div class="noise">
+                                    <div class="clock">
+                                        <div class="hr">
+                                            <div class="strip">
+                                                <div class="number">0</div>
+                                                <div class="number">1</div>
+                                                <div class="number">2</div>
+                                            </div>
+                                            <div class="strip">
+                                                <div class="number">0</div>
+                                                <div class="number">1</div>
+                                                <div class="number">2</div>
+                                                <div class="number">3</div>
+                                                <div class="number">4</div>
+                                                <div class="number">5</div>
+                                                <div class="number">6</div>
+                                                <div class="number">7</div>
+                                                <div class="number">8</div>
+                                                <div class="number">9</div>
+                                            </div>
+                                        </div>
+                                        <div class="min">
+                                            <div class="strip">
+                                                <div class="number">0</div>
+                                                <div class="number">1</div>
+                                                <div class="number">2</div>
+                                                <div class="number">3</div>
+                                                <div class="number">4</div>
+                                                <div class="number">5</div>
+                                            </div>
+                                            <div class="strip">
+                                                <div class="number">0</div>
+                                                <div class="number">1</div>
+                                                <div class="number">2</div>
+                                                <div class="number">3</div>
+                                                <div class="number">4</div>
+                                                <div class="number">5</div>
+                                                <div class="number">6</div>
+                                                <div class="number">7</div>
+                                                <div class="number">8</div>
+                                                <div class="number">9</div>
+                                            </div>
+                                        </div>
+                                        <div class="sec">
+                                            <div class="strip">
+                                                <div class="number">0</div>
+                                                <div class="number">1</div>
+                                                <div class="number">2</div>
+                                                <div class="number">3</div>
+                                                <div class="number">4</div>
+                                                <div class="number">5</div>
+                                            </div>
+                                            <div class="strip">
+                                                <div class="number">0</div>
+                                                <div class="number">1</div>
+                                                <div class="number">2</div>
+                                                <div class="number">3</div>
+                                                <div class="number">4</div>
+                                                <div class="number">5</div>
+                                                <div class="number">6</div>
+                                                <div class="number">7</div>
+                                                <div class="number">8</div>
+                                                <div class="number">9</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                                            
+                        </div>
+                    </div>
+                </div>
+            </article>
+            
+        </main>    
     </div>
-{% endfor %}
-                
+        
+    
+    
+    <div class="intro">
+        <svg id="logo"  width="1440" height="812" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <!-- <rect width="1440" height="1024" fill="white"/> -->
+            <rect opacity="0.8" x="434" y="530" width="242" height="248" fill="#8EC4F5" fill-opacity="0.8"/>
+            <rect opacity="0.8" x="536" y="278" width="520" height="252" fill="#8EC4F5" fill-opacity="0.8"/>
+            <g filter="url(#filter0_d_2_3)">
+                <path d="M561.64 370.584C567.976 370.584 573.064 372.792 576.904 377.208C580.808 381.624 582.76 388.28 582.76 397.176C582.76 403 581.864 407.928 580.072 411.96C578.344 415.928 575.88 418.936 572.68 420.984C569.544 422.968 565.832 423.96 561.544 423.96C558.92 423.96 556.584 423.608 554.536 422.904C552.488 422.2 550.728 421.304 549.256 420.216C547.848 419.064 546.632 417.816 545.608 416.472H545.032C545.16 417.56 545.288 418.936 545.416 420.6C545.544 422.264 545.608 423.704 545.608 424.92V446.04H537.16V371.544H544.072L545.224 378.552H545.608C546.632 377.08 547.848 375.736 549.256 374.52C550.728 373.304 552.456 372.344 554.44 371.64C556.488 370.936 558.888 370.584 561.64 370.584ZM560.104 377.688C556.648 377.688 553.864 378.36 551.752 379.704C549.64 380.984 548.104 382.936 547.144 385.56C546.184 388.184 545.672 391.512 545.608 395.544V397.176C545.608 401.4 546.056 404.984 546.952 407.928C547.848 410.872 549.352 413.112 551.464 414.648C553.64 416.184 556.584 416.952 560.296 416.952C563.432 416.952 565.992 416.088 567.976 414.36C570.024 412.632 571.528 410.296 572.488 407.352C573.512 404.344 574.024 400.92 574.024 397.08C574.024 391.192 572.872 386.488 570.568 382.968C568.328 379.448 564.84 377.688 560.104 377.688Z" fill="black"/>
+                <path d="M633.452 371.448C633.452 372.664 633.388 373.912 633.26 375.192C633.196 376.472 633.1 377.624 632.972 378.648H633.548C634.636 376.856 636.012 375.384 637.676 374.232C639.34 373.08 641.196 372.216 643.244 371.64C645.292 371 647.404 370.68 649.58 370.68C653.74 370.68 657.196 371.352 659.948 372.696C662.764 373.976 664.876 375.992 666.284 378.744C667.692 381.496 668.396 385.08 668.396 389.496V423H660.044V390.072C660.044 385.912 659.116 382.808 657.26 380.76C655.404 378.712 652.492 377.688 648.524 377.688C644.684 377.688 641.676 378.424 639.5 379.896C637.324 381.304 635.756 383.416 634.796 386.232C633.9 388.984 633.452 392.376 633.452 396.408V423H625.004V350.04H633.452V371.448Z" fill="black"/>
+                <path d="M757.865 397.176C757.865 401.464 757.289 405.272 756.137 408.6C755.049 411.864 753.449 414.648 751.337 416.952C749.289 419.256 746.761 421.016 743.753 422.232C740.809 423.384 737.513 423.96 733.865 423.96C730.473 423.96 727.337 423.384 724.457 422.232C721.577 421.016 719.081 419.256 716.969 416.952C714.857 414.648 713.193 411.864 711.977 408.6C710.825 405.272 710.249 401.464 710.249 397.176C710.249 391.48 711.209 386.68 713.129 382.776C715.049 378.808 717.801 375.8 721.385 373.752C724.969 371.64 729.225 370.584 734.153 370.584C738.825 370.584 742.921 371.64 746.441 373.752C750.025 375.8 752.809 378.808 754.793 382.776C756.841 386.68 757.865 391.48 757.865 397.176ZM718.985 397.176C718.985 401.208 719.497 404.728 720.521 407.736C721.609 410.68 723.273 412.952 725.513 414.552C727.753 416.152 730.601 416.952 734.057 416.952C737.513 416.952 740.361 416.152 742.601 414.552C744.841 412.952 746.473 410.68 747.497 407.736C748.585 404.728 749.129 401.208 749.129 397.176C749.129 393.08 748.585 389.592 747.497 386.712C746.409 383.832 744.745 381.624 742.505 380.088C740.329 378.488 737.481 377.688 733.961 377.688C728.713 377.688 724.905 379.416 722.537 382.872C720.169 386.328 718.985 391.096 718.985 397.176Z" fill="black"/>
+                <path d="M824.803 370.584C830.947 370.584 835.587 372.088 838.723 375.096C841.859 378.04 843.427 382.84 843.427 389.496V423H835.075V390.072C835.075 385.912 834.147 382.808 832.291 380.76C830.435 378.712 827.523 377.688 823.555 377.688C817.859 377.688 813.923 379.288 811.747 382.488C809.571 385.688 808.483 390.296 808.483 396.312V423H800.035V371.544H806.851L808.099 378.552H808.579C809.731 376.76 811.139 375.288 812.803 374.136C814.531 372.92 816.419 372.024 818.467 371.448C820.515 370.872 822.627 370.584 824.803 370.584Z" fill="black"/>
+                <path d="M906.4 370.584C909.792 370.584 912.832 371.224 915.52 372.504C918.272 373.784 920.608 375.736 922.528 378.36H923.008L924.16 371.544H930.88V423.864C930.88 428.728 930.048 432.792 928.384 436.056C926.72 439.384 924.192 441.88 920.8 443.544C917.408 445.208 913.088 446.04 907.84 446.04C904.128 446.04 900.704 445.752 897.568 445.176C894.496 444.664 891.744 443.864 889.312 442.776V435C890.976 435.832 892.8 436.536 894.784 437.112C896.768 437.752 898.912 438.232 901.216 438.552C903.52 438.872 905.888 439.032 908.32 439.032C912.736 439.032 916.192 437.72 918.688 435.096C921.248 432.536 922.528 429.016 922.528 424.536V422.52C922.528 421.752 922.56 420.664 922.624 419.256C922.688 417.784 922.752 416.76 922.816 416.184H922.432C920.64 418.808 918.4 420.76 915.712 422.04C913.088 423.32 910.016 423.96 906.496 423.96C899.84 423.96 894.624 421.624 890.848 416.952C887.136 412.28 885.28 405.752 885.28 397.368C885.28 391.864 886.112 387.128 887.776 383.16C889.504 379.128 891.936 376.024 895.072 373.848C898.208 371.672 901.984 370.584 906.4 370.584ZM907.552 377.688C904.672 377.688 902.208 378.456 900.16 379.992C898.176 381.528 896.64 383.768 895.552 386.712C894.528 389.656 894.016 393.24 894.016 397.464C894.016 403.8 895.168 408.664 897.472 412.056C899.84 415.384 903.264 417.048 907.744 417.048C910.368 417.048 912.608 416.728 914.464 416.088C916.32 415.384 917.856 414.328 919.072 412.92C920.288 411.448 921.184 409.592 921.76 407.352C922.336 405.112 922.624 402.456 922.624 399.384V397.368C922.624 392.696 922.08 388.92 920.992 386.04C919.968 383.16 918.336 381.048 916.096 379.704C913.856 378.36 911.008 377.688 907.552 377.688Z" fill="black"/>
+                <path d="M984.452 371.448C984.452 372.664 984.388 373.912 984.26 375.192C984.196 376.472 984.1 377.624 983.972 378.648H984.548C985.636 376.856 987.012 375.384 988.676 374.232C990.34 373.08 992.196 372.216 994.244 371.64C996.292 371 998.404 370.68 1000.58 370.68C1004.74 370.68 1008.2 371.352 1010.95 372.696C1013.76 373.976 1015.88 375.992 1017.28 378.744C1018.69 381.496 1019.4 385.08 1019.4 389.496V423H1011.04V390.072C1011.04 385.912 1010.12 382.808 1008.26 380.76C1006.4 378.712 1003.49 377.688 999.524 377.688C995.684 377.688 992.676 378.424 990.5 379.896C988.324 381.304 986.756 383.416 985.796 386.232C984.9 388.984 984.452 392.376 984.452 396.408V423H976.004V350.04H984.452V371.448Z" fill="black"/>
+                <path d="M456.648 629.68C462.92 629.68 467.56 631.056 470.568 633.808C473.576 636.56 475.08 640.944 475.08 646.96V682H468.936L467.304 674.704H466.92C465.448 676.56 463.912 678.128 462.312 679.408C460.776 680.624 458.984 681.52 456.936 682.096C454.952 682.672 452.52 682.96 449.64 682.96C446.568 682.96 443.784 682.416 441.288 681.328C438.856 680.24 436.936 678.576 435.528 676.336C434.12 674.032 433.416 671.152 433.416 667.696C433.416 662.576 435.432 658.64 439.464 655.888C443.496 653.072 449.704 651.536 458.088 651.28L466.824 650.992V647.92C466.824 643.632 465.896 640.656 464.04 638.992C462.184 637.328 459.56 636.496 456.168 636.496C453.48 636.496 450.92 636.912 448.488 637.744C446.056 638.512 443.784 639.408 441.672 640.432L439.08 634.096C441.32 632.88 443.976 631.856 447.048 631.024C450.12 630.128 453.32 629.68 456.648 629.68ZM459.144 657.136C452.744 657.392 448.296 658.416 445.8 660.208C443.368 662 442.152 664.528 442.152 667.792C442.152 670.672 443.016 672.784 444.744 674.128C446.536 675.472 448.808 676.144 451.56 676.144C455.912 676.144 459.528 674.96 462.408 672.592C465.288 670.16 466.728 666.448 466.728 661.456V656.848L459.144 657.136Z" fill="black"/>
+                <path d="M552.97 652.912C552.586 651.568 552.202 650.256 551.818 648.976C551.434 647.632 551.082 646.384 550.762 645.232C550.506 644.016 550.25 642.896 549.994 641.872C549.738 640.848 549.546 639.984 549.418 639.28H549.034C548.906 639.984 548.714 640.848 548.458 641.872C548.266 642.896 548.01 644.016 547.69 645.232C547.434 646.448 547.114 647.728 546.73 649.072C546.41 650.352 546.026 651.664 545.578 653.008L536.362 681.904H526.762L512.65 630.448H521.386L528.49 657.904C529.002 659.76 529.482 661.648 529.93 663.568C530.378 665.424 530.762 667.216 531.082 668.944C531.466 670.608 531.722 672.048 531.85 673.264H532.234C532.426 672.496 532.65 671.536 532.906 670.384C533.162 669.232 533.418 668.016 533.674 666.736C533.994 665.456 534.314 664.176 534.634 662.896C535.018 661.616 535.37 660.464 535.69 659.44L544.81 630.448H554.026L562.858 659.44C563.306 660.912 563.754 662.48 564.202 664.144C564.714 665.808 565.162 667.44 565.546 669.04C565.93 670.576 566.186 671.952 566.314 673.168H566.698C566.826 672.08 567.05 670.736 567.37 669.136C567.754 667.472 568.17 665.68 568.618 663.76C569.13 661.776 569.642 659.824 570.154 657.904L577.354 630.448H585.994L571.69 681.904H561.802L552.97 652.912Z" fill="black"/>
+                <path d="M665.764 682H620.452V674.992L638.404 656.848C641.86 653.392 644.772 650.32 647.14 647.632C649.508 644.944 651.3 642.32 652.516 639.76C653.732 637.136 654.34 634.288 654.34 631.216C654.34 627.44 653.22 624.592 650.98 622.672C648.74 620.688 645.828 619.696 642.244 619.696C638.916 619.696 635.972 620.272 633.412 621.424C630.916 622.576 628.356 624.176 625.732 626.224L621.22 620.56C623.012 619.024 624.964 617.648 627.076 616.432C629.252 615.216 631.588 614.256 634.084 613.552C636.644 612.848 639.364 612.496 642.244 612.496C646.532 612.496 650.212 613.232 653.284 614.704C656.356 616.176 658.724 618.288 660.388 621.04C662.116 623.728 662.98 626.96 662.98 630.736C662.98 633.424 662.564 635.984 661.732 638.416C660.9 640.784 659.716 643.12 658.18 645.424C656.644 647.728 654.788 650.064 652.612 652.432C650.436 654.8 648.036 657.264 645.412 659.824L631.108 673.936V674.32H665.764V682Z" fill="black"/>
+            </g>
+            <rect id="rected" x="434.5" y="351.5" width="661" height="344" stroke="black"/>
+            <defs>
+            <filter id="filter0_d_2_3" x="429.416" y="350.04" width="593.98" height="340.92" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+            <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+            <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+            <feOffset dy="4"/>
+            <feGaussianBlur stdDeviation="2"/>
+            <feComposite in2="hardAlpha" operator="out"/>
+            <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+            <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_3"/>
+            <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_3" result="shape"/>
+            </filter>
+            </defs>
+        </svg>
+    </div>
+    <div class="slider"></div>
+    
+
+    
+<script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+      integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/clock.js"></script>
+
+
+</body>
+</html>
