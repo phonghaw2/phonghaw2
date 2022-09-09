@@ -51,7 +51,7 @@
   <a href="https://www.facebook.com/phonghaw2" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="phonghaw2-facebook" />
   </a>
-  <a href="https://www.youtube.com/c/TrungquandevOfficial" target="blank">
+  <a href="https://www.youtube.com/channel/UCh2gCSQyYOeV8PtDIVo4jqg" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/youtube-squared.png" alt="phonghaw2-youtube" />
   </a>
   <a href="https://www.linkedin.com/in/phonghaw2" target="blank">
