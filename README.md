@@ -45,12 +45,13 @@
 <h2 align="center"> Where to find me </h2>
 <br>
 
+
 <div align="center">
 
   <a href="https://www.facebook.com/phonghaw2" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="phonghaw2-facebook" />
   </a>
-  <a href="https://www.youtube.com/channel/UCh2gCSQyYOeV8PtDIVo4jqg" target="blank">
+  <a href="https://www.youtube.com/@phonghaw2" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/youtube-squared.png" alt="phonghaw2-youtube" />
   </a>
   <a href="https://www.linkedin.com/in/phonghaw2" target="blank">
@@ -60,15 +61,8 @@
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="phonghaw2-email" />
   </a>
   
-###
-<img align="right" height="150" src="https://static.wikia.nocookie.net/k-on/images/5/58/Yui_Icon.png/revision/latest/scale-to-width-down/250?cb=20140723211155" />
-###
+<img align="right" height="125" src="https://static.wikia.nocookie.net/k-on/images/5/58/Yui_Icon.png/revision/latest/scale-to-width-down/250?cb=20140723211155" />
+
 </div>
-
-<br>
-
-
-
-
 
 
