@@ -53,8 +53,3 @@
 <br>
 <br>
 <img style='position:absolute; z-index:1;' src='https://svgshare.com/i/1084.svg' alt="github-metrics.svg"/>
-
-<br>
-<br>
-[https://svgshare.com/i/1084.svg](https://svgshare.com/i/1084.svg)
-
