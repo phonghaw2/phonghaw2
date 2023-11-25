@@ -50,5 +50,11 @@
 <img align="right" height="125" src="https://static.wikia.nocookie.net/k-on/images/5/58/Yui_Icon.png/revision/latest/scale-to-width-down/250?cb=20140723211155" />
 
 </div>
+<br>
+<br>
+<img style='position:absolute; z-index:1;' src='https://svgshare.com/i/1084.svg' alt="github-metrics.svg"/>
 
+<br>
+<br>
+[https://svgshare.com/i/1084.svg](https://svgshare.com/i/1084.svg)
 
