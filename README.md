@@ -3,7 +3,7 @@
     <img style='position:absolute; z-index:2;' src='svg/ceres_fauna.png' width='350px' alt="ceres_fauna"/>
 </div> 
 <br>
-<p><img align="left" src="https://i.postimg.cc/Tw0w6chs/Screenshot-2023-11-26-213012.png" alt="phonghaw2" /></p>
+<p><img align="left" width="400" src="https://i.postimg.cc/Tw0w6chs/Screenshot-2023-11-26-213012.png" alt="phonghaw2" /></p>
 <p>&nbsp;<img margin="32px" align="center"  src="https://github-profile-trophy.vercel.app/?username=phonghaw2&title=Commits,Experience,Repositories&margin-w=30&no-bg=true&theme=dracula&column=3" alt="phonghaw2" /></p>
 <br>
 <br>
