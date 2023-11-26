@@ -1,6 +1,6 @@
 <div style="position:relative; display: flex; flex-wrap: nowrap;"> 
     <img style='position:absolute; z-index:1;' src='svg/phonghaw2_svg.svg' alt="phonghaw2_svg.svg"/>
-    <img style='position:absolute; z-index:2;' src='svg/ceres_fauna.png' width='300px' alt="ceres_fauna"/>
+    <img style='position:absolute; z-index:2;' src='svg/ceres_fauna.png' width='350px' alt="ceres_fauna"/>
 </div> 
 
 ### Self Introduction
