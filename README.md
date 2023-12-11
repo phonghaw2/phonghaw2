@@ -11,6 +11,7 @@
 <br><br>
 <h2 align="center"> Where to find me </h2>
 <div align="center">
+    <a href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/1e433a560a184684beb77d4640a8a2e5.png?r=fvu" width="400" alt="phonghaw2's Dev Card"/></a>
   <a href="https://www.facebook.com/phonghaw2" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="phonghaw2-facebook" />
   </a>
