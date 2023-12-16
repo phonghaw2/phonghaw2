@@ -9,8 +9,6 @@
 <br>
 <div align="center">
     ~
-    <img height="44" src='webp/heart_11.webp' alt="heart"/>~
-    <img height="44" src='webp/heart_12.webp' alt="heart"/>~
     <img height="44" src='webp/heart_13.webp' alt="heart"/>~
     <img height="44" src='webp/heart_1.webp' alt="heart"/>~
     <img height="44" src='webp/heart_2.webp' alt="heart"/>~
@@ -44,9 +42,7 @@
 <img height="44" src='webp/gif_saplings.gif' alt="gif"/>
 <img height="44" src='webp/gif_saplings.gif' alt="gif"/>
 <img height="44" src='webp/gif_saplings.gif' alt="gif"/>
-<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
-<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
-<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+
 </div> 
 <br><br>
 <a href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/1e433a560a184684beb77d4640a8a2e5.png?r=fvu" width="400" alt="phonghaw2's Dev Card"/></a>
