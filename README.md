@@ -7,11 +7,52 @@
 <p>&nbsp;<img margin="32px" align="center"  src="https://github-profile-trophy.vercel.app/?username=phonghaw2&title=Commits,Experience,Repositories&margin-w=30&no-bg=true&theme=dracula&column=3" alt="phonghaw2" /></p>
 <br>
 <br>
-<img style='position:absolute; z-index:1;' src='svg/saplings.svg' alt="saplings.svg"/>
+<div align="center">
+    ~
+    <img height="44" src='webp/heart_11.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_12.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_13.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_1.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_2.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_3.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_4.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_5.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_6.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_7.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_8.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_9.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_10.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_11.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_12.webp' alt="heart"/>~
+    <img height="44" src='webp/heart_13.webp' alt="heart"/>~
+</div> 
+<div align="center">
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+<img height="44" src='webp/gif_saplings.gif' alt="gif"/>
+</div> 
+<br><br>
+<a href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/1e433a560a184684beb77d4640a8a2e5.png?r=fvu" width="400" alt="phonghaw2's Dev Card"/></a>
 <br><br>
 <h2 align="center"> Where to find me </h2>
 <div align="center">
-    <a href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/1e433a560a184684beb77d4640a8a2e5.png?r=fvu" width="400" alt="phonghaw2's Dev Card"/></a>
   <a href="https://www.facebook.com/phonghaw2" target="blank">
     <img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" alt="phonghaw2-facebook" />
   </a>
@@ -26,3 +67,5 @@
   </a>
   <img align="right" height="125" src="https://static.wikia.nocookie.net/k-on/images/5/58/Yui_Icon.png/revision/latest/scale-to-width-down/250?cb=20140723211155" />
 </div> 
+
+
