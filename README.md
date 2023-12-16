@@ -65,7 +65,7 @@
   <a href="mailto:phong2t25t@gmail.com" target="top">
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="phonghaw2-email" />
   </a>
-  <img align="right" height="125" src="https://static.wikia.nocookie.net/k-on/images/5/58/Yui_Icon.png/revision/latest/scale-to-width-down/250?cb=20140723211155" />
+  <img align="right" height="125" src="webp/fauna_tiny.png" />
 </div> 
 
 
