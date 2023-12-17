@@ -8,7 +8,7 @@ on:
 jobs:
   update_blogs:
     name: "Update With Latest Blogs"
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
        # Reference a specific commit
       - uses: actions/checkout@8f4b7f84864484a7bf31766abe9204da3cbe65b3
