@@ -42,13 +42,11 @@
 <img height="44" src='webp/gif_saplings.gif' alt="gif"/>
 <img height="44" src='webp/gif_saplings.gif' alt="gif"/>
 <img height="44" src='webp/gif_saplings.gif' alt="gif"/>
-
 </div> 
 <br><br>
 <div>
 <a  href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/1e433a560a184684beb77d4640a8a2e5.png?r=fvu" width="400" alt="phonghaw2's Dev Card"/></a>
 <img  align="right" height="256" src='webp/fire.gif' alt="gif"/>
-
 </div> 
 <br><br>
 <h2 align="center"> Where to find me </h2>
@@ -68,4 +66,7 @@
   <img align="right" height="125" src="webp/fauna_tiny.svg" />
 </div> 
 
+# Latest Blogs
+<!-- BLOG-POST-LIST:START -->
+<!-- BLOG-POST-LIST:END -->
 
