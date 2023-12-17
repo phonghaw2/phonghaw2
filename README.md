@@ -68,5 +68,10 @@
 
 # Latest Blogs
 <!-- HASHNODE_BLOG:START -->
+- [My cheat-shiet Javascript](https://phonghaw2coder.hashnode.dev//my-cheat-shiet-javascript)
+- [Regular Expressions in Python](https://phonghaw2coder.hashnode.dev//regular-expressions-in-python)
+- [Object-Oriented Programming in Python](https://phonghaw2coder.hashnode.dev//object-oriented-programming-in-python)
+- [Thanh niên làm theo lời bác](https://phonghaw2coder.hashnode.dev//thanh-nien-lam-theo-loi-bac)
+- [Đang cảm thấy bug bối (・`⤙´・)](https://phonghaw2coder.hashnode.dev//dang-cam-thay-bug-boi-w)
 <!-- HASHNODE_BLOG:END -->
 
