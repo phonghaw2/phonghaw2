@@ -19,6 +19,6 @@ jobs:
           USERNAME: "phonghaw2"
           COUNT: 5 
           STYLE: "list"
-          BLOG_URL: "https://phonghaw2coder.hashnode.dev/"
+          BLOG_URL: "https://phonghaw2coder.hashnode.dev"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
