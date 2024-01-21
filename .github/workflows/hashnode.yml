@@ -17,5 +17,6 @@ jobs:
         uses: "phonghaw2/action-hashnode-blog@main"
         with:
           BLOG_URL: "phonghaw2coder.hashnode.dev"
+          LIMIT: 5
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
