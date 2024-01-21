@@ -14,11 +14,9 @@ jobs:
         uses: actions/checkout@main
             
       - name: "📚  Hashnode Updater"
-        uses: "varunsridharan/action-hashnode-blog@main"
+        uses: "phonghaw2/action-hashnode-blog@main"
         with:
-          USERNAME: "phonghaw2coder"
-          COUNT: 5
-          FILE: "README.md"
+          USERNAME: "Phonghaw2"
           STYLE: "list"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
