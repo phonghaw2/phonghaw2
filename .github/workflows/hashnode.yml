@@ -16,7 +16,7 @@ jobs:
       - name: "📚  Hashnode Updater"
         uses: "varunsridharan/action-hashnode-blog@main"
         with:
-          USERNAME: "Phonghaw2"
+          USERNAME: "phonghaw2coder"
           COUNT: 5
           FILE: "README.md"
           STYLE: "list"
