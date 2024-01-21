@@ -16,7 +16,6 @@ jobs:
       - name: "📚  Hashnode Updater"
         uses: "phonghaw2/action-hashnode-blog@main"
         with:
-          USERNAME: "Phonghaw2"
-          STYLE: "list"
+          BLOG_URL: "phonghaw2coder.hashnode.dev"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
