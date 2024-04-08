@@ -45,7 +45,7 @@
 </div> 
 <br><br>
 <div>
-<a href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/v2/pVuPrkgeHT76j7yqoDr02.png?r=ynm" width="400" alt="phonghaw2's Dev Card"/></a>
+<a href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/v2/pVuPrkgeHT76j7yqoDr02.png?type=default&r=xam" width="356" alt="phonghaw2's Dev Card"/></a>
 <img  align="right" height="256" src='webp/fire.gif' alt="gif"/>
 </div> 
 <br><br>
