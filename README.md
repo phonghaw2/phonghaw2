@@ -68,10 +68,10 @@
 
 # Latest Blogs
 <!-- HASHNODE_BLOG:START -->
+- [Tưởng là trick nhưng hóa ra lại là "chick"](https://phonghaw2coder.hashnode.dev/tuong-la-trick-nhung-hoa-ra-lai-la-chick)
 - [OOP Design Pattern in JS](https://phonghaw2coder.hashnode.dev/oop-design-pattern-in-js)
 - [My cheat-shiet Javascript](https://phonghaw2coder.hashnode.dev/my-cheat-shiet-javascript)
 - [Regular Expressions in Python](https://phonghaw2coder.hashnode.dev/regular-expressions-in-python)
 - [Object-Oriented Programming in Python](https://phonghaw2coder.hashnode.dev/object-oriented-programming-in-python)
-- [Thanh niên làm theo lời bác](https://phonghaw2coder.hashnode.dev/thanh-nien-lam-theo-loi-bac)
 <!-- HASHNODE_BLOG:END -->
 
