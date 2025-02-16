@@ -68,10 +68,10 @@
 
 # Latest Blogs
 <!-- HASHNODE_BLOG:START -->
+- [Viễn du](https://phonghaw2coder.hashnode.dev/vien-du)
 - [Đĩa CD](https://phonghaw2coder.hashnode.dev/dia-cd)
 - [Hạnh kiểm yếu](https://phonghaw2coder.hashnode.dev/hanh-kiem-yeu)
 - [Môn ngữ văn](https://phonghaw2coder.hashnode.dev/mon-ngu-van)
 - [Chút kỷ niệm ở Shizuoka](https://phonghaw2coder.hashnode.dev/chut-ky-niem-o-shizuoka)
-- [Tưởng là trick nhưng hóa ra lại là "chick"](https://phonghaw2coder.hashnode.dev/tuong-la-trick-nhung-hoa-ra-lai-la-chick)
 <!-- HASHNODE_BLOG:END -->
 
