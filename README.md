@@ -11,7 +11,7 @@
 </div> 
 <br><br>
 <div>
-<a href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/v2/pVuPrkgeHT76j7yqoDr02.png?type=default&r=xam" width="356" alt="phonghaw2's Dev Card"/></a>
+<a href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/v2/pVuPrkgeHT76j7yqoDr02.png?type=default&r=otn" width="356" alt="phonghaw2's Dev Card"/></a>
 <img  align="right" width="400" src='gif/shy.gif' alt="gif"/>
 </div> 
 <br><br>
