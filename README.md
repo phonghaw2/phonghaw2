@@ -1,35 +1,18 @@
 <div style="position:relative; display: flex; flex-wrap: nowrap;"> 
     <img style='position:absolute; z-index:1;' src='svg/phonghaw2_svg.svg' alt="phonghaw2_svg.svg"/>
-    <img style='position:absolute; z-index:2;' src='gif/sigh.gif' width='350px' alt="sigh"/>
+    <img style='position:absolute; z-index:2;' src='gif/sigh.gif' width='200px' alt="sigh"/>
 </div> 
 <br>
-<p><img align="left" width="400" src="https://i.postimg.cc/Tw0w6chs/Screenshot-2023-11-26-213012.png" alt="phonghaw2" /></p>
 <p>&nbsp;<img margin="32px" align="center"  src="https://github-profile-trophy.vercel.app/?username=phonghaw2&title=Commits,Experience,Repositories&margin-w=30&no-bg=true&theme=dracula&column=3" alt="phonghaw2" /></p>
 <br>
 <br>
 <div align="center">
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
-<img height="44" src='gif/gif_saplings.gif' alt="gif"/>
+<h2>◦•●◉✿ 🅡🅘🅚🅚🅐 🅣🅐🅚🅐🅝🅐🅢🅗🅘 ✿◉●•◦</h2>  
 </div> 
 <br><br>
 <div>
 <a href="https://app.daily.dev/phonghaw2"><img src="https://api.daily.dev/devcards/v2/pVuPrkgeHT76j7yqoDr02.png?type=default&r=xam" width="356" alt="phonghaw2's Dev Card"/></a>
-<img  align="right" height="256" src='gif/rikka-takanashi.gif' alt="gif"/>
+<img  align="right" width="400" src='gif/shy.gif' alt="gif"/>
 </div> 
 <br><br>
 <h2 align="center"> Where to find me </h2>
@@ -46,7 +29,7 @@
   <a href="mailto:phong2t25t@gmail.com" target="top">
     <img src="https://img.icons8.com/bubbles/100/000000/apple-mail.png" alt="phonghaw2-email" />
   </a>
-  <img align="right" height="125" src="images/rikka-tiny.jpg" />
+   <img align="right" width="100" src="gif/rikka-takanashi.gif" />
 </div> 
 
 # Latest Blogs
